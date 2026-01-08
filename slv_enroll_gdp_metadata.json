@@ -1,0 +1,210 @@
+{
+  "dataframe_metadata": {
+    "name": "slv_enroll_gdp_20",
+    "description": "El Salvador primary school enrollment and GDP data (2001-2020)",
+    "source": "World Bank EDU_ERL.csv + World_GDP.csv",
+    "country": "El Salvador",
+    "country_code": "SLV",
+    "years": "2001-2020",
+    "rows": 20,
+    "columns": 3
+  },
+  "schema": {
+    "fields": [
+      {
+        "name": "Year",
+        "type": "object",
+        "description": "Year values for El Salvador",
+        "example_values": [
+          "2001",
+          "2002",
+          "2003",
+          "2004",
+          "2005",
+          "2006",
+          "2007",
+          "2008",
+          "2009",
+          "2010",
+          "2011",
+          "2012",
+          "2013",
+          "2014",
+          "2015",
+          "2016",
+          "2017",
+          "2018",
+          "2019",
+          "2020"
+        ]
+      },
+      {
+        "name": "Primary Enrollment",
+        "type": "object",
+        "description": "Primary Enrollment values for El Salvador",
+        "example_values": [
+          967748.0,
+          987676.0,
+          1016098.0,
+          1045485.0,
+          1045484.0,
+          1035100.0,
+          1075041.0,
+          993795.0,
+          963524.0,
+          939726.0,
+          900681.0,
+          858864.0,
+          817275.0,
+          777043.0,
+          741394.0,
+          711182.0,
+          678137.0,
+          662740.0,
+          626300.0,
+          616870.0
+        ]
+      },
+      {
+        "name": "GDP",
+        "type": "object",
+        "description": "GDP values for El Salvador",
+        "example_values": [
+          967748.0,
+          987676.0,
+          1016098.0,
+          1045485.0,
+          1045484.0,
+          1035100.0,
+          1075041.0,
+          993795.0,
+          963524.0,
+          939726.0,
+          900681.0,
+          858864.0,
+          817275.0,
+          777043.0,
+          741394.0,
+          711182.0,
+          678137.0,
+          662740.0,
+          626300.0,
+          616870.0
+        ]
+      }
+    ]
+  },
+  "data_summary": {
+    "shape": [
+      20,
+      3
+    ],
+    "sample_data": [
+      {
+        "Year": "2001",
+        "Primary Enrollment": 967748.0,
+        "GDP": 967748.0
+      },
+      {
+        "Year": "2002",
+        "Primary Enrollment": 987676.0,
+        "GDP": 987676.0
+      },
+      {
+        "Year": "2003",
+        "Primary Enrollment": 1016098.0,
+        "GDP": 1016098.0
+      },
+      {
+        "Year": "2004",
+        "Primary Enrollment": 1045485.0,
+        "GDP": 1045485.0
+      },
+      {
+        "Year": "2005",
+        "Primary Enrollment": 1045484.0,
+        "GDP": 1045484.0
+      },
+      {
+        "Year": "2006",
+        "Primary Enrollment": 1035100.0,
+        "GDP": 1035100.0
+      },
+      {
+        "Year": "2007",
+        "Primary Enrollment": 1075041.0,
+        "GDP": 1075041.0
+      },
+      {
+        "Year": "2008",
+        "Primary Enrollment": 993795.0,
+        "GDP": 993795.0
+      },
+      {
+        "Year": "2009",
+        "Primary Enrollment": 963524.0,
+        "GDP": 963524.0
+      },
+      {
+        "Year": "2010",
+        "Primary Enrollment": 939726.0,
+        "GDP": 939726.0
+      },
+      {
+        "Year": "2011",
+        "Primary Enrollment": 900681.0,
+        "GDP": 900681.0
+      },
+      {
+        "Year": "2012",
+        "Primary Enrollment": 858864.0,
+        "GDP": 858864.0
+      },
+      {
+        "Year": "2013",
+        "Primary Enrollment": 817275.0,
+        "GDP": 817275.0
+      },
+      {
+        "Year": "2014",
+        "Primary Enrollment": 777043.0,
+        "GDP": 777043.0
+      },
+      {
+        "Year": "2015",
+        "Primary Enrollment": 741394.0,
+        "GDP": 741394.0
+      },
+      {
+        "Year": "2016",
+        "Primary Enrollment": 711182.0,
+        "GDP": 711182.0
+      },
+      {
+        "Year": "2017",
+        "Primary Enrollment": 678137.0,
+        "GDP": 678137.0
+      },
+      {
+        "Year": "2018",
+        "Primary Enrollment": 662740.0,
+        "GDP": 662740.0
+      },
+      {
+        "Year": "2019",
+        "Primary Enrollment": 626300.0,
+        "GDP": 626300.0
+      },
+      {
+        "Year": "2020",
+        "Primary Enrollment": 616870.0,
+        "GDP": 616870.0
+      }
+    ],
+    "dtypes": {
+      "Year": "object",
+      "Primary Enrollment": "object",
+      "GDP": "object"
+    }
+  }
+}
